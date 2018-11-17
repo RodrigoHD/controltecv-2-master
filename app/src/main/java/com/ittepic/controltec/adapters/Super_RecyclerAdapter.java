@@ -17,9 +17,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-/**
- * Created by Jose Alfredo de Jesus Aguiar Arce on 16/12/2015.
- */
+
 public class Super_RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     //Manejar datos
@@ -53,9 +51,7 @@ public class Super_RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.Vie
 
 }
 
-/**
- * Created by alfredo on 01/01/2016.
- */
+
 class vista_practica extends RecyclerView.ViewHolder{
 
 
