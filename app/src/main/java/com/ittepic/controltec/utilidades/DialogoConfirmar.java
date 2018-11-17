@@ -23,13 +23,14 @@ public class DialogoConfirmar {
     public Alumno mAlumno;
 
     public DialogoConfirmar(final Context c, final Practica practica) {
-        final View bottomSheetLayout = LayoutInflater.from(c).inflate(R.layout.bottomsheetdialogconfirmar_layout, null);
+        final
+        View bottomSheetLayout = LayoutInflater.from(c).inflate(R.layout.bottomsheetdialogconfirmar_layout, null);
         TextView mDetalles =(TextView) bottomSheetLayout.findViewById(R.id.textView_Detalles_BottomSheet);
         TextView mTitulo = (TextView) bottomSheetLayout.findViewById(R.id.textView_titulo_BottomSheet);
 
         String titulo = "Solicitud para registrar practica"; //+ practica.getTitle() + " : "+ practica.getTipo();
 
-        mAlumno = new Alumno("Pruebas","Mecatronica",1,1,"solicitudpracticasitt@gmail.com");
+        mAlumno = new Alumno("Rodrigo Arturo Hernandez Diaz","Ingenieria Mecatronica",1540838,7,"solicitudpracticasitt@gmail.com");
 
         final String body = "Practica a realizar: "+practica.getTitle()+"\n"+"\n"+"Tecnologia: "+practica.getTipo();
         (bottomSheetLayout.findViewById(R.id.button_confirmar)).setOnClickListener(new View.OnClickListener() {

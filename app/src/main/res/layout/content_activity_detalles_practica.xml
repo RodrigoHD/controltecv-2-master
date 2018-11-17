@@ -30,7 +30,8 @@
             android:layout_margin="@dimen/text_margin"
             android:autoLink="web"
             android:text="@string/large_text"
-            android:textColor="@color/letras" />
+            android:textColor="@color/letras"
+            android:textColorLink="@android:color/holo_orange_light" />
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

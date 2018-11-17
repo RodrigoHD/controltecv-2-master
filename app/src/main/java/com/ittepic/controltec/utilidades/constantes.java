@@ -3,11 +3,26 @@ package com.ittepic.controltec.utilidades;
 public class constantes {
     public static final String CATEGORIA_NEUMATICA_BASICA = "Neumatica basica" ;
     public static final String CATEGORIA_NEUMATICA_AVANZADA = "Neumatica avanzada" ;
+    public static final String CATEGORIA_ELECTRONEUMATICA_BASICA = "Electroneumatica basica" ;
+    public static final String CATEGORIA_ELECTRONEUMATICA_AVANZADA = "Electroneumatica avanzada" ;
+    public static final String CATEGORIA_HIDRAULICA_BASICA = "Hidraulica basica" ;
+    public static final String CATEGORIA_HIDRAULICA_AVANZADA = "Hidraulica avanzada" ;
+    public static final String CATEGORIA_ELECTROHIDRAULICA_BASICA = "Electrohidraulica basica" ;
+    public static final String CATEGORIA_ELECTROHIDRAULICA_AVANZADA = "Electrohidraulica avanzada" ;
+    public static final String CATEGORIA_ELECTROHIDRAULICA_PROPORCIONAL = "Electrohidraulica proporcional" ;
 
 
     //iconos
     public static final String ICONO_NEUMATICA_BASICA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
     public static final String ICONO_NEUMATICA_AVANZADA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+    public static final String ICONO_ELECTRONEUMATICA_BASICA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+    public static final String ICONO_ELECTRONEUMATICA_AVANZADA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+    public static final String ICONO_HIDRAULICA_BASICA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+    public static final String ICONO_HIDRAULICA_AVANZADA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+    public static final String ICONO_ELECTROHIDRAULICA_BASICA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+    public static final String ICONO_ELECTROHIDRAULICA_AVANZADA = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+    public static final String ICONO_ELECTROHIDRAULICA_PROPORCIONAL = "http://img.fenixzone.net/i/dVP7WMO.jpeg" ;
+
 
     public static final String CORREO_ENCARGADO="solicitudpracticasitt@gmail.com";
     //PUT EXTRAS
